@@ -1,4 +1,4 @@
-package com.singleton.model;
+package com.singleton.model.dynamic;
 
 /**
  * <p>
@@ -7,6 +7,7 @@ package com.singleton.model;
  *
  * @author Dustin Singleton
  */
+@SuppressWarnings({ "javadoc" })
 public interface Person
 {
     String getName();
